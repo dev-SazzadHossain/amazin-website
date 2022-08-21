@@ -20,12 +20,16 @@ a {
     text-decoration: none;
 }
 
+body {
+    background: #dddad5;
+}
+
 /* main css startttttttttttttttttttttttttttttttttttttt */
 .header-wrapper {
     display: flex;
-    width: 1040px;
     margin: auto;
-    background: #dddad5;
+    background: transparent;
+    box-shadow: 0 0 5px rgb(179, 172, 172);
 }
 
 .NavLeft-Site {
