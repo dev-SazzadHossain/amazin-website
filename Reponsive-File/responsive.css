@@ -45,7 +45,6 @@
     /* crosss */
     i.fa-solid.fa-xmark {
         position: absolute;
-        /* padding: 3px; */
         top: 0;
         font-size: 2rem;
         right: 0px;
@@ -55,6 +54,10 @@
         border-radius: 5px;
         box-shadow: 0 0 12px #f5d8d8;
         cursor: pointer;
+    }
+
+    i#xross {
+        display: block;
     }
 
     .navLists li {

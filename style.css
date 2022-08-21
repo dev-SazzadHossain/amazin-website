@@ -25,11 +25,12 @@ a {
     display: flex;
     width: 1040px;
     margin: auto;
+    background: #dddad5;
 }
 
 .NavLeft-Site {
     width: 30%;
-    background: red;
+    /* background: red; */
     font-size: 2rem;
     display: flex;
     padding: 6px 0px;
@@ -38,7 +39,7 @@ a {
 
 nav.navBar {
     width: 70%;
-    background: #afc9af;
+    /* background: #afc9af; */
     padding-right: 20px;
 }
 
@@ -54,4 +55,12 @@ ul.navLists {
 
 i.fa-solid.fa-align-justify {
     display: none;
+}
+
+i#xross {
+    display: none;
+}
+
+.navLists li a:hover {
+    color: blue;
 }
