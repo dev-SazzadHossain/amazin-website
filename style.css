@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* main css startttttttttttttttttttttttttttttttttttttt */
+.header-wrapper {
+    display: flex;
+    width: 1040px;
+    margin: auto;
+}
+
+.NavLeft-Site {
+    width: 30%;
+    background: red;
+    font-size: 2rem;
+    display: flex;
+    padding: 6px 0px;
+    justify-content: center;
+}
+
+nav.navBar {
+    width: 70%;
+    background: #afc9af;
+    padding-right: 20px;
+}
+
+ul.navLists {
+    display: flex;
+    justify-content: end;
+}
+
+.navLists li {
+    padding: 10px 15px;
+    font-family: sans-serif;
+}
+
+i.fa-solid.fa-align-justify {
+    display: none;
+}
