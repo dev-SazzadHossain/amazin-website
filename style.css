@@ -25,10 +25,16 @@ body {
 }
 
 /* main css startttttttttttttttttttttttttttttttttttttt */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 .header-wrapper {
     display: flex;
     margin: auto;
-    background: transparent;
+    background: #ecf0f1;
     box-shadow: 0 0 5px rgb(179, 172, 172);
 }
 
